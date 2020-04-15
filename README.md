@@ -1,7 +1,7 @@
 # Linear_Optimization_with_AMPL_1
 A linear programming solution to maximize the profit for metals mining companies:
 
-#DESCRIPTION OF THE PROBLEM:
+#DESCRIPTION OF THE PROBLEM:  
 A mining company extracts minerals from ore mined at two different sites. 
 Each ton of ore type i contains XCi% copper, XZi% zinc and XMi% magnesium.
 Ore type i costs Ci per ton. 
@@ -17,8 +17,8 @@ Constraints (for i in Ore type):
    Σ XZi * Xi >= KZ
    Σ XMi * Xi >= KM
    
-FILES:
-  1 MODEL (*.mod)
-  1 DATA (*.dat)
-  1 RUN (*.run
+FILES:  
+  1 MODEL (*.mod)  
+  1 DATA (*.dat)  
+  1 RUN (*.run)  
    
