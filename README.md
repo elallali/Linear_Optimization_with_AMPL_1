@@ -1,5 +1,8 @@
 # Linear_Optimization_with_AMPL_1  
-A linear programming solution to maximize the profit for metals mining companies:  
+A linear programming solution to maximize the profit for metals mining companies.  
+
+WHY AMPL:
+AMPL (A Mathematical Programming Language) is an algebraic modeling language to describe and solve high-complexity problems for large-scale mathematical computing (i.e., large-scale optimization and scheduling-type problems)
 
 #DESCRIPTION OF THE PROBLEM:  
 A mining company extracts minerals from ore mined at two different sites.   
