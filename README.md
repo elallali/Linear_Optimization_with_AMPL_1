@@ -10,15 +10,15 @@ Each ton of ore type i contains XCi% copper, XZi% zinc and XMi% magnesium.
 Ore type i costs Ci per ton.   
 The company would like to buy enough ore to extract at least ExC tons of copper,  ExZ tons of zinc, and ExM tons of magnesium in the least costly manner.  
 
-Decision Variables:  
-  Xi := Amount of or type i  
-Objective Function:  
-  here we minimize the objective funtion with min()  
-  MIN(ΣCi Xi) ; with Ci Cost of Ore type i and Xi ist the decision variable  
-Constraints (for i in Ore type):  
-   Σ XCi * Xi >= ExC  
-   Σ XZi * Xi >= ExZ  
-   Σ XMi * Xi >= ExM  
+        Decision Variables:  
+          Xi := Amount of or type i  
+        Objective Function:  
+          here we minimize the objective funtion with min()  
+          MIN(ΣCi Xi) ; with Ci Cost of Ore type i and Xi ist the decision variable  
+        Constraints (for i in Ore type):  
+           Σ XCi * Xi >= ExC  
+           Σ XZi * Xi >= ExZ  
+           Σ XMi * Xi >= ExM  
 
 The LP-Solution provide not only the optimal solution but also using the the variable (display _cons.slack):  
  1) In which price range of each ore type the solution remains optimal:  
