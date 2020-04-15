@@ -1,0 +1,18 @@
+reset;
+
+model Blacktop_model.mod;
+
+data Blacktop_data.dat;
+
+
+option solver gurobi;
+option presolve 0;
+option gurobi_options 'presolve 0 solnsens 1';
+solve;
+
+
+display amount;
+display _varname, _var, _var.sensobjlo, _var.sensobjhi;
+display _conname, _con, _con.slack; #con heisst shadow price
+
+

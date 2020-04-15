@@ -1,0 +1,10 @@
+set Ore := Type1 Type2;
+
+param:			copper	zinc		magnesium	cost	:=
+	
+	Type1		0.2		0.2			0.15		90
+	Type2		0.3		0.25		0.1			120;
+	
+param min_quantity_copper := 8;
+param min_quantity_zinc := 6;
+param min_quantity_magnesium := 5;
